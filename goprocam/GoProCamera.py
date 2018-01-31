@@ -40,8 +40,8 @@ class GoPro:
 		
 		print("Camera successfully connected!")
 	def __init__(self, camera="detect", ip_address="10.5.5.9", mac_address="AA:BB:CC:DD:EE:FF"):
-		if sys.version_info[0] < 3:
-			print("Needs Python v3, run again on a virtualenv or install Python 3")
+		#if sys.version_info[0] < 3:
+			#print("Needs Python v3, run again on a virtualenv or install Python 3")
 			#exit()
 		self.ip_addr = ip_address
 		self._camera=""
